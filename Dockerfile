@@ -1,6 +1,7 @@
 FROM python:3.8-slim
 
 RUN apt-get update && \
+    apt-get install -y git \
     apt-get install -y curl python && \
     rm -rf /var/lib/apt/lists/*
 
