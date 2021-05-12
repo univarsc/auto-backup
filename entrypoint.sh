@@ -7,13 +7,10 @@ cd theme-files/
 git config --global user.email "bradley.playdon@univarsolutions.com"
 git config --global user.name "univarsc"
 
-
 git checkout backup-main-theme
 
 git add .
 
 git commit -m "Auto backup commit"
 
-git remote add origin https://$USCPASS@github.com/univarsc/USC-MAIN-SITE.git
-
-git push
+git push origin backup-main-theme
