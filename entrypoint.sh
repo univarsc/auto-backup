@@ -6,6 +6,7 @@ cd theme-files/
 
 git config --global user.email "bradley.playdon@univarsolutions.com"
 git config --global user.name "univarsc"
+git remote add origin https://univarsc:Univar100!@github.com/univarsc/USC-MAIN-SITE
 
 git checkout backup-main-theme
 
