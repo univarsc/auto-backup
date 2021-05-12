@@ -4,6 +4,8 @@ theme download --password=$SHOPIFY_PASSWORD --store=$SHOPIFY_STORE_URL --themeid
 
 cd theme-files/
 
+
+git remote set-url origin git@github.com:univarsc/USC-MAIN-SITE.git
 git config --global user.email "bradley.playdon@univarsolutions.com"
 git config --global user.name "univarsc"
 
