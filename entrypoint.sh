@@ -4,6 +4,11 @@ theme download --password=$SHOPIFY_PASSWORD --store=$SHOPIFY_STORE_URL --themeid
 
 cd theme-files/
 
+git config --global user.email "bradley.playdon@univarsolutions.com"
+git config --global user.name "univarsc"
+
+git checkout backup-main-theme
+
 git add .
 
 git commit -m "Auto backup commit"
